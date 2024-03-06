@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Expression Matcher</title>
+</head>
+<body>
+    <div style="display: grid; grid-template-columns: 1fr 1fr;grid-gap: 20px 10px; justify-content: space-around;">
+        <div style="margin-left: 50px;">
+            <h1>Regular Expression Matcher</h1>
+            <form action="/regex" method="POST">
+                <label for="text"  placeholder="Enter Text" text-align: center;>Text: </label><br>
+                <textarea id="text" name="text" rows="4" cols="50"></textarea><br>
+                <label for="pattern" >Regex Pattern:</label><br>
+                <input type="text" id="pattern" name="pattern" placeholder="Enter Regex Pattern"><br><br>
+                <input  type="submit" value="Match">
+            </form>
+            
+        </div>
+        <div>
+            <h1>Email Validation</h1>
+            <form method="post" action="/validate-email">
+                <label for="email" >Email:</label><br>
+                <input type="text"  id="email" name="email" placeholder="Enter Email-id"><br><br>
+                <button stype="submit">Validate</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
