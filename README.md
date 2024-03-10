@@ -34,7 +34,7 @@ Your task is to replicate the core functionality of the website regex101.com. Th
 7. Test your application:
    - Run your Flask application (`python app.py`).
    - Open a web browser and navigate to http://localhost:5000 to access your application.
-  - Input various test strings and regex patterns to ensure the application displays the correct matches.
+   - Input various test strings and regex patterns to ensure the application displays the correct matches.
 
 8. <b>(BONUS)</b> Implement a new route where a user can validate if a given email id is valid or not.
 
